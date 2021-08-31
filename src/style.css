@@ -1,0 +1,52 @@
+:root{
+    --bgc-card-hover: rgba(33, 37, 41, .9);
+}
+body{height: 100vh;}
+
+.wrapper_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(14rem, 1fr));
+    gap: 2em;
+    position: relative;
+}
+.alert-wrapper{
+    position:absolute;
+    left: 25%;
+    right: 25%;
+}
+
+.cover_hero{
+    position: relative;
+    overflow: hidden;
+}
+.cover__overflow{
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: transform .3s;
+    transition-delay: .3s;
+}
+
+.cover_hero::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgc-card-hover);
+    position: absolute;
+    transform: translateX(-100%);
+    transition: transform .3s;
+}
+.cover_hero:hover::before{
+    transform: translateX(0);
+}
+.cover_hero:hover .cover__overflow{
+    transform: translateX(0);
+}
+
+.navbar-brand{
+    width: 50px;
+}
+
+.home{
+    height: calc(100vh - 60px);
+}

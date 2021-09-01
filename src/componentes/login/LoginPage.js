@@ -41,7 +41,7 @@ const LoginPage = ({history}) => {
                                 placeholder="your username"
                                 onChange={handleChangeInput}/>
                             </div>
-                            <div class="form-text">
+                            <div className="form-text">
                                 Any username
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const LoginPage = ({history}) => {
                                 placeholder="********"
                                 onChange={handleChangeInput}
                                 />
-                                <div class="form-text">
+                                <div className="form-text">
                                     Any password
                                 </div>
                             </div>

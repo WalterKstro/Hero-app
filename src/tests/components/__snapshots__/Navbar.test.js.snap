@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in <Navbar/> should show correctly 1`] = `
+<nav
+  className="sticky-top navbar navbar-expand-lg navbar-dark bg-dark py-0"
+>
+  <div
+    className="container-fluid"
+  >
+    <a
+      aria-current="page"
+      className="navbar-brand active"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <img
+        alt="Brand"
+        src="/assets/Brand.svg"
+      />
+    </a>
+    <button
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-bs-target="#navbarNav"
+      data-bs-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarNav"
+    >
+      <ul
+        className="navbar-nav"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            onClick={[Function]}
+          >
+            DC Universe
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            onClick={[Function]}
+          >
+            Marvel Universe
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarNav"
+    >
+      <ul
+        className="navbar-nav ms-auto"
+      >
+        <li
+          className="nav-item"
+        >
+          <button
+            className="nav-link text-white fw-bold btn"
+          >
+            Walter Francisco
+          </button>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Sign Out
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;

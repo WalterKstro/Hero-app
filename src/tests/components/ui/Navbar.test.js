@@ -1,7 +1,7 @@
 import { mount } from "enzyme"
 import { MemoryRouter, Router } from "react-router"
-import AuthContext from "../../auth/AuthContext"
-import Navbar from "../../componentes/ui/Navbar"
+import AuthContext from "../../../auth/AuthContext"
+import Navbar from "../../../componentes/ui/Navbar"
 
 describe('Testing in <Navbar/>', () => {
 

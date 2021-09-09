@@ -4,7 +4,7 @@ import getById from '../../switcher/getById';
 const DetaillsScreen = ({history}) => {
     
     const {id_hero} = useParams()
-    console.log(id_hero)
+    
     const currentHero = getById(id_hero)
     const objectBack = {'back': history.goBack, 'length' : history.length, 'push': history.push}
     

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in componente <DetaillsScreen/> should display the component <Error404Page/> if the URL is invalid 1`] = `
+<div>
+  <h1>
+    Error 404 Page not Found
+  </h1>
+</div>
+`;
+
+exports[`Testing in componente <DetaillsScreen/> should display the component <Redirect/> and redirect to home, if not found an heroe 1`] = `""`;

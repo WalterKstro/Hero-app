@@ -15,7 +15,7 @@ const HomePage = () => {
                     </address>
                 </main>
                 <figure>
-                    <img src={`${process.env.PUBLIC_URL}/assets/linkedin.jpeg`} alt="Code QR LinkedIn"/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/linkedin.jpeg`} alt="Code QR LinkedIn" className="img-fluid" />
                 </figure>
             </div>
         </div>

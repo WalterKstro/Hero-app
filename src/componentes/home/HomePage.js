@@ -3,7 +3,7 @@ const HomePage = () => {
     
     return (
         <div className="row">
-            <div className="home col d-flex flex-md-row flex-sm-column align-items-center justify-content-between">
+            <div className="home col d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between">
                 <main>
                     <h1>Frontend Developer</h1>
                     <address>

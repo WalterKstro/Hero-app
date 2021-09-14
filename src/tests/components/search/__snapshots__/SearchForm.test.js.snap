@@ -1,0 +1,676 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in <SearchForm/> should display a result of queryString 1`] = `
+Array [
+  <div
+    className="row my-5"
+  >
+    <div
+      className="col-md-4 offset-md-4"
+    >
+      <form>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+            htmlFor="heroe"
+          >
+            Name heroe
+          </label>
+          <input
+            className="form-control"
+            id="heroe"
+            name="search"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <button
+          className="btn btn-outline-primary"
+          onClick={[Function]}
+          type="submit"
+        >
+          Search heroe
+        </button>
+      </form>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 wrapper_grid"
+    >
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-superman.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Superman
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-superman"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Testing in <SearchForm/> should display an alert if not found a heroe with the queryString 1`] = `
+Array [
+  <div
+    className="row my-5"
+  >
+    <div
+      className="col-md-4 offset-md-4"
+    >
+      <form>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+            htmlFor="heroe"
+          >
+            Name heroe
+          </label>
+          <input
+            className="form-control"
+            id="heroe"
+            name="search"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <button
+          className="btn btn-outline-primary"
+          onClick={[Function]}
+          type="submit"
+        >
+          Search heroe
+        </button>
+      </form>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 wrapper_grid"
+    >
+      <div
+        className="alert alert-primary alert-wrapper"
+        role="alert"
+      >
+        😞 Not found heroes with the name  
+        <strong>
+          superman12
+        </strong>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Testing in <SearchForm/> should display correctly 1`] = `
+Array [
+  <div
+    className="row my-5"
+  >
+    <div
+      className="col-md-4 offset-md-4"
+    >
+      <form>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+            htmlFor="heroe"
+          >
+            Name heroe
+          </label>
+          <input
+            className="form-control"
+            id="heroe"
+            name="search"
+            onChange={[Function]}
+            type="text"
+          />
+        </div>
+        <button
+          className="btn btn-outline-primary"
+          onClick={[Function]}
+          type="submit"
+        >
+          Search heroe
+        </button>
+      </form>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 wrapper_grid"
+    >
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-batman.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Batman
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-batman"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-superman.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Superman
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-superman"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-flash.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Flash
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-flash"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-green.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Green Lantern
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-green"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-arrow.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Green Arrow
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-arrow"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-wonder.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Wonder Woman
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-wonder"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-martian.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Martian Manhunter
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-martian"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-robin.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Robin/Nightwing
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-robin"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-blue.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Blue Beetle
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-blue"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/dc-black.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Black Canary
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/dc-black"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-spider.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Spider Man
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-spider"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-captain.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Captain America
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-captain"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-iron.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Iron Man
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-iron"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-thor.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Thor
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-thor"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-hulk.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Hulk
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-hulk"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-wolverine.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Wolverine
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-wolverine"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-daredevil.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Daredevil
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-daredevil"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-hawkeye.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Hawkeye
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-hawkeye"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-cyclops.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Cyclops
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-cyclops"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+      <div
+        className="card animate__animated animate__zoomIn cover_hero"
+      >
+        <img
+          alt="..."
+          className="img-fluid card-img-top"
+          src="/assets/heroes/marvel-silver.jpg"
+        />
+        <div
+          className="card-body cover__overflow"
+        >
+          <h5
+            className="card-title text-white bolder"
+          >
+            Silver Surfer
+          </h5>
+          <a
+            className="btn btn-light text-bolder"
+            href="/hero/marvel-silver"
+            onClick={[Function]}
+          >
+            View More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
